@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1wJFBRRsp5zCDB8C4k8HY4yRQhJL1THlnUh3WTVWO8IxmWwNJ8keWKLUH1OwvT3pRA69QOef1eb7nm7dFczjiQ==",
+  "success": true,
+  "projectFilePath": "D:\\LuanVanTotNghiep\\SrouceCode\\LuanVanTotNghiep.Web\\LuanVanTotNghiep.DTOs\\LuanVanTotNghiep.DTOs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Thanh BOS\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.15\\microsoft.aspnetcore.http.features.5.0.15.nupkg.sha512",
+    "C:\\Users\\Thanh BOS\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Thanh BOS\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
