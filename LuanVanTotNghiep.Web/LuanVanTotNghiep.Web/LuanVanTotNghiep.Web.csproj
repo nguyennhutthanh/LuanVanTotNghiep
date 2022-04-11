@@ -27,4 +27,10 @@
     <ProjectReference Include="..\LuanVanTotNgiep.Data\LuanVanTotNghiep.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>

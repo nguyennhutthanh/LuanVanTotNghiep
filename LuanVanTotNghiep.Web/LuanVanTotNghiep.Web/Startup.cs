@@ -1,3 +1,4 @@
+using LuanVanTotNghiep.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -6,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Net.Http.Headers;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
@@ -32,6 +34,20 @@ namespace LuanVanTotNghiep.Web
 			{
 				c.SwaggerDoc("v1", new OpenApiInfo { Title = "LuanVanTotNghiep.Web", Version = "v1" });
 			});
+
+			services.AddHttpContextAccessor();
+			services.AddDbContext<LuanVanTotNghiepDbContext>();
+			services.AddControllers();
+			services.AddCors(options =>
+			{
+				options.AddPolicy("Policy1", builder =>
+				{
+					builder.WithOrigins("http://localhost:3000", "http://localhost:3001")
+					.WithMethods("POST", "GET", "PUT", "DELETE")
+					.WithHeaders(HeaderNames.ContentType)
+					.AllowCredentials();
+				});
+			});
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,15 +56,19 @@ namespace LuanVanTotNghiep.Web
 			if (env.IsDevelopment())
 			{
 				app.UseDeveloperExceptionPage();
-				app.UseSwagger();
-				app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "LuanVanTotNghiep.Web v1"));
 			}
+
+			app.UseCors("Policy1");
+
+			app.UseStaticFiles();
 
 			app.UseHttpsRedirection();
 
 			app.UseRouting();
 
 			app.UseAuthorization();
+
+			app.UseAuthentication();
 
 			app.UseEndpoints(endpoints =>
 			{

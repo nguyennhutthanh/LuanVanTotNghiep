@@ -1,0 +1,12 @@
+D:\LuanVanTotNghiep\LuanVanTotNghiep\LuanVanTotNghiep.Web\LuanVanTotNghiep.DTOs\bin\Debug\net5.0\LuanVanTotNghiep.DTOs.deps.json
+D:\LuanVanTotNghiep\LuanVanTotNghiep\LuanVanTotNghiep.Web\LuanVanTotNghiep.DTOs\bin\Debug\net5.0\LuanVanTotNghiep.DTOs.dll
+D:\LuanVanTotNghiep\LuanVanTotNghiep\LuanVanTotNghiep.Web\LuanVanTotNghiep.DTOs\bin\Debug\net5.0\ref\LuanVanTotNghiep.DTOs.dll
+D:\LuanVanTotNghiep\LuanVanTotNghiep\LuanVanTotNghiep.Web\LuanVanTotNghiep.DTOs\bin\Debug\net5.0\LuanVanTotNghiep.DTOs.pdb
+D:\LuanVanTotNghiep\LuanVanTotNghiep\LuanVanTotNghiep.Web\LuanVanTotNghiep.DTOs\obj\Debug\net5.0\LuanVanTotNghiep.DTOs.csprojAssemblyReference.cache
+D:\LuanVanTotNghiep\LuanVanTotNghiep\LuanVanTotNghiep.Web\LuanVanTotNghiep.DTOs\obj\Debug\net5.0\LuanVanTotNghiep.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+D:\LuanVanTotNghiep\LuanVanTotNghiep\LuanVanTotNghiep.Web\LuanVanTotNghiep.DTOs\obj\Debug\net5.0\LuanVanTotNghiep.DTOs.AssemblyInfoInputs.cache
+D:\LuanVanTotNghiep\LuanVanTotNghiep\LuanVanTotNghiep.Web\LuanVanTotNghiep.DTOs\obj\Debug\net5.0\LuanVanTotNghiep.DTOs.AssemblyInfo.cs
+D:\LuanVanTotNghiep\LuanVanTotNghiep\LuanVanTotNghiep.Web\LuanVanTotNghiep.DTOs\obj\Debug\net5.0\LuanVanTotNghiep.DTOs.csproj.CoreCompileInputs.cache
+D:\LuanVanTotNghiep\LuanVanTotNghiep\LuanVanTotNghiep.Web\LuanVanTotNghiep.DTOs\obj\Debug\net5.0\LuanVanTotNghiep.DTOs.dll
+D:\LuanVanTotNghiep\LuanVanTotNghiep\LuanVanTotNghiep.Web\LuanVanTotNghiep.DTOs\obj\Debug\net5.0\ref\LuanVanTotNghiep.DTOs.dll
+D:\LuanVanTotNghiep\LuanVanTotNghiep\LuanVanTotNghiep.Web\LuanVanTotNghiep.DTOs\obj\Debug\net5.0\LuanVanTotNghiep.DTOs.pdb

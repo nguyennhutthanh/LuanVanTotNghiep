@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aCb5dc0UfUEqUXfIhzF6fLY3ePXXTvXLIjbD1z66BP8jNLMXtOjbzDcP/t8z6IKPe9FGnyvSyY+OEGd3Kw1VpA==",
+  "dgSpecHash": "V0c7HU2sDeBoCuibUg+f3/BFoK9qAEcQHHPWTt43bxGS6HmZGo2DH2a0eQQI5DS+Z+0vHuddViH2y4rvFbvSAQ==",
   "success": true,
-  "projectFilePath": "D:\\LuanVanTotNghiep\\SrouceCode\\LuanVanTotNghiep.Web\\LuanVanTotNgiep.Data\\LuanVanTotNghiep.Data.csproj",
+  "projectFilePath": "D:\\LuanVanTotNghiep\\LuanVanTotNghiep\\LuanVanTotNghiep.Web\\LuanVanTotNgiep.Data\\LuanVanTotNghiep.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thanh BOS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Thanh BOS\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.15\\microsoft.aspnetcore.http.features.5.0.15.nupkg.sha512",
