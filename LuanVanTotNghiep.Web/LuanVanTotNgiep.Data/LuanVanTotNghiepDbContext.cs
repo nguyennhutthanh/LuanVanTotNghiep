@@ -23,6 +23,7 @@ namespace LuanVanTotNghiep.Data
 		public virtual DbSet<SmallSubCategoryDTO> SmallSubCategorys { get; set; }
 		public virtual DbSet<SubCategoryDTO> SubCategorys { get; set; }
 		public virtual DbSet<CustomerDTO> Customers { get; set; }
+		public virtual DbSet<OrderDiscountDTO> OrderDiscount { get; set; }
  		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			var Builder = new ConfigurationBuilder()
