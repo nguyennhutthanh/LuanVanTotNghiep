@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>3d38e27b-4c7a-433a-8783-86ea3615ce7d</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,9 +29,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Common\" />
     <Folder Include="ViewModel\" />
-    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\ImagesAdmin\" />
   </ItemGroup>
 
 </Project>
